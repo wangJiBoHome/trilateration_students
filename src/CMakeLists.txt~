@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(trilateration)
+
+add_executable(main main.cpp Kalman.cpp Robot.cpp vibes.cpp)
