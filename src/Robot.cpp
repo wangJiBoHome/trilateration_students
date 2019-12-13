@@ -3,7 +3,7 @@
 #include <random>
 #include <iostream>
 
-void Kalman::display() const {
+void Robot::display() const {
   vibes::drawTank(0, 0, 0, 1, "g[g]");
 }
 
